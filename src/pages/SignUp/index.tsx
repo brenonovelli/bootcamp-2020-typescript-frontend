@@ -26,6 +26,7 @@ const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
   const { addToast } = useToast();
+  
   const history = useHistory();
 
   const handleSubmit = useCallback(
